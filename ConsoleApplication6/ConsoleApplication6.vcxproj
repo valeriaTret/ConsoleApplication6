@@ -18,6 +18,25 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Figure.h" />
+    <ClInclude Include="Pentagon.h" />
+    <ClInclude Include="Iterator.h" />
+    <ClInclude Include="Romb.h" />
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="StackItem.h" />
+    <ClInclude Include="TALLOCATIONBLOCK.h" />
+    <ClInclude Include="Trapeze.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Pentagon.cpp" />
+    <ClCompile Include="Romb.cpp" />
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="StackItem.cpp" />
+    <ClCompile Include="TALLOCATIONBLOCK.cpp" />
+    <ClCompile Include="Trapeze.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A5590327-C2C3-4E2B-AACC-2FD48FAEC5A2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -145,8 +164,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
